@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>WebGame</title>
+		<link rel="stylesheet" type="text/css" href="css/game.css" />
+		<script type="text/javascript" src="js/game.js"></script>
+		<style type="text/css">
+			body{
+				margin:0;
+			}
+		
+		.top_dic{
+			width:700px;
+			margin:0 auto;
+			height: 40px;
+		
+		}
+		
+		.top_dic .title{
+			border: 1px solid red;
+			width:700px;
+			margin:0 auto;
+			height: 40px;
+			box-shadow: 5px 5px 4px darkslateblue;
+			background: navajowhite;
+			text-align: center;
+			text-shadow: 2px 2px 5px blue;
+			letter-spacing: 15px;
+		}
+		
+		</style>
+	</head>
+	<body>
+		
+		<div class="dic">
+			<div id="start">开始游戏</div>
+		</div>
+		<div class="top_dic">
+			<h1 id="title">猜色块！</h1>
+		</div>
+		
+		<div class="div">
+			<table id="tab" width="700px" height="500" border="1" >
+			<tr>
+				<td></td>
+				<td></td>	
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>	
+			</tr>
+		</table>
+		</div>
+		<div class="dic">
+			<h3 id="score">分数：<div>0</div></h3>
+			<div id="show"></div>
+			<div id="again">再来一局!</div>
+		</div>		
+		
+	</body>
+</html>

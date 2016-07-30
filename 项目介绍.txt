@@ -1,0 +1,11 @@
+				WebGame(猜色块(JavaScript+HTML+CSS)
+)	
+说明：html+css+js制作的一个页面小游戏
+				
+				mouseMoveEfficiency(鼠标滑动特效)
+
+说明：纯js代码编写
+
+				starCompete(球球大作战网页单机版(模仿安卓端球球大作战)未完成)
+
+说明：该项目由于安卓学习时间安排原因，未继续做下去，只完成了随机生成，360度方向移动功能，吞吃孢子，变大功能。

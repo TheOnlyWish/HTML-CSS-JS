@@ -1,0 +1,60 @@
+1. 以工具类的方式创建功能。
+2. 有机物随机产生 
+3. 地图大小，width:	2600px		height:1600px
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+计算:
+	(20，40),(35,55)
+	
+	
+
+如何吃元素:
+	每移动一次，判断细胞所在的小区域元素
+	first way:
+		以像素为单位，的块状区域，划分成一个二维数组，判断数组索引，判断数组内的元素与细胞位置
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+测试代码区:
+	
+	var div = document.createElement("div");
+	div.style.position = "absolute";
+	div.style.width = 10 + "px";
+	div.style.height = 10 + "px";
+	div.style.borderRadius = "50%";
+	div.style.left = 500 + "px";
+	div.style.top = 100 + "px";
+	div.style.background = "yellow";
+	
+	document.documentElement.appendChild(div);
+	
+	
+		
+		
+		
+		
+
+

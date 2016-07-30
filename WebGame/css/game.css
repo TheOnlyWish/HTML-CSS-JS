@@ -1,0 +1,136 @@
+
+
+body{
+	left: 0px;
+	top: 0px;
+	background: orange;
+	margin: 0px;
+	padding: 0px;
+}
+
+
+.dic{
+	display: block;
+	position: absolute;
+	margin: 0px;
+	padding: 0px;
+}
+
+
+#title{
+	
+	z-index: 9997;
+	position: absolute;
+	margin-top: 20px;
+	display: block;
+	width: 700px;
+	height: 40px;
+	box-shadow: 10px 10px 8px darkslateblue;
+	background: navajowhite;
+	text-align: center;
+	text-shadow: 2px 2px 5px blue;
+	letter-spacing: 15px;
+	
+	
+	
+}
+
+#tab{
+	z-index: 9996;
+	position: absolute;
+	border: none;
+	background-color: burlywood;
+}
+
+
+
+#tab td {
+	cursor: pointer;
+}
+
+#score{
+	display: block;
+	width: 300px;
+	height: 80px;
+	text-align: left;
+	font-family:"微软雅黑";
+	font-weight: 800;
+	font-size: 40px;
+	color: yellow;
+	margin-left: 20px;
+}
+
+#score div{
+	margin-top: 30px;
+	margin-right: 20px;
+	text-align: right;
+	direction: left;
+	font-weight: 800;
+	font-size: 60px;
+	color: greenyellow;
+}
+
+
+#show{
+	display: block;
+	margin-top: 200px;
+	margin-left: 20px;
+	text-align: center;
+	width: 300px;
+	height: 80px;
+	font-family:"微软雅黑";
+	font-weight: 800;
+	font-size: 30px;
+	color: red;
+	opacity: 0.8;
+}
+
+
+#again{
+	margin-top: 50px;
+	margin-left: 30px;
+	text-align: center;
+	border: solid 1px forestgreen;
+	font-size: 40px;
+	color: black;
+	width: 200px;
+	height: 60px;		
+	cursor: pointer;
+	display: none;
+}
+
+#start{
+	position: absolute;
+	border: solid 1px forestgreen;
+	font-size: 40px;
+	border: dashed 2px black;
+	text-align: center;
+	background: greenyellow;
+	color: black;
+	text-shadow: 2px 3px 2px #000000 ;
+	font-weight: 900;
+	width: 200px;
+	height: 60px;		
+	cursor: pointer;
+	z-index: 9999;
+	display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
